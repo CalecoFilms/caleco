@@ -87,7 +87,7 @@ $('.heading-3').each(function(){
         opacity: 0,
       	scale: 0.8,
         rotationY: 20,
-        x: "100%",
+        y: "100%",
         duration:0.7,
         stagger: {amount : 0.5},
         ease: "expo"
