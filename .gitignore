@@ -1,0 +1,11 @@
+
+node_modules/
+package.json
+package-lock.json
+index.html
+._sunrooof.js
+._package.json
+._package-lock.json
+._node_modules
+._index.html
+._.gitignore
