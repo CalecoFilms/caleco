@@ -89,7 +89,7 @@ $('.text-hero').each(function(){
 $('.heading-3').each(function(){
     let targetText = $(this);
     const heroText = new SplitType($(this),{
-        types: ('words, lines', 'chars'),
+        types: ('words, lines'),
         tagName: "hero-split"
     });
     
