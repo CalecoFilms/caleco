@@ -105,7 +105,7 @@ $('.heading-3').each(function(){
         rotationZ: 20,
         y: "100%",
         duration:0.7,
-        stagger: 0.5/* {amount : 0.5} */,
+        stagger: {amount : 0.5},
         ease: "expo"
     });
     createScrollTrigger(".div-text-content", tl);
