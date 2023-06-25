@@ -4,20 +4,6 @@ import { Draggable } from "./node_modules/gsap/Draggable.js";
 import SplitType from "./node_modules/split-type/dist/index.js";
  */
   //* to copy for webflow
-  if (isMobileDevice()) {
-   
-  } else {
-    const clcMW = $('.div-wrapper').css('max-width');
-    $('.div-gallery-images').css("max-width", clcMW/2);
-    $('div-review-data').css("max-width", clcMW/2);
-    $('div-grid-team').css("max-width", clcMW/1.5);
-/*     $(window).on("resize", function() {
-      $('.div-gallery-images').css("max-width", clcMW/2);
-      $('div-review-data').css("max-width", clcMW/2);
-      $('div-grid-team').css("max-width", clcMW/1.5);
-    }); */
-}
-
 
 
   ScrollTrigger.defaults({
@@ -291,9 +277,13 @@ $(".div-section.hero").each(function (index) {
       duration: 1
     }, "<0")
     .from(".div-navbar",{
-        y: "-100%",
+      maxWidth: "100vw",
       duration: 1
-    },"<25%");
+    },"<0")
+    .from(".div-navbar",{
+      y: "-100%",
+    duration: 1
+  },"<65%");
   });
   
   // Animate to
