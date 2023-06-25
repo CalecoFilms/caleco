@@ -11,11 +11,11 @@ import SplitType from "./node_modules/split-type/dist/index.js";
     $('.div-gallery-images').css("max-width", clcMW/2);
     $('div-review-data').css("max-width", clcMW/2);
     $('div-grid-team').css("max-width", clcMW/1.5);
-    $(window).on("resize", function() {
+/*     $(window).on("resize", function() {
       $('.div-gallery-images').css("max-width", clcMW/2);
       $('div-review-data').css("max-width", clcMW/2);
       $('div-grid-team').css("max-width", clcMW/1.5);
-    });
+    }); */
 }
 
 
