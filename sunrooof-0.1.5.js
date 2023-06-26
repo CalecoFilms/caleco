@@ -269,7 +269,6 @@ $(".div-section.hero").each(function (index) {
     });
     tl.from(targetElement, {
            padding: "0",
-           maxWidth: "100vw",
       duration: 1
     },"+=99%")
       .from("#hero-sticky",{
@@ -277,13 +276,10 @@ $(".div-section.hero").each(function (index) {
       duration: 1
     }, "<0")
     .from(".div-navbar",{
-      maxWidth: "100vw",
-      duration: 1
-    },"<0")
-    .from(".div-navbar",{
       y: "-100%",
+      opacity: 0,
     duration: 1
-  },"<65%");
+  },"<75%");
   });
   
   // Animate to
